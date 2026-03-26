@@ -45,11 +45,11 @@ Este projeto foi construído e refinado através dos seguintes cursos da Alura:
 
 Você pode visualizar o projeto online através do link do deploy (Vercel/GitHub Pages):
 
-🔗 [Link do Projeto Online](INSIRA_AQUI_O_LINK_DO_SEU_DEPLOY)
+🔗 [Link do Projeto Online](https://projeto-portifolio-html-css-delta.vercel.app/)
 
 Ou, para rodar localmente:
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
+1. Clone este repositório: `git clone https://github.com/sousaMatheus1/projeto-portifolio-html-css`
 2. Abra o arquivo `index.html` no seu navegador.
 
 ---
