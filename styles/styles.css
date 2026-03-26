@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+/*Ao usar um reset universal, você garante que todos os elementos comecem com os mesmos estilos, facilitando a criação de um layout consistente em todos os navegadores.*/
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+/*TODA A AREA VISIVEL PELO USUARIO*/
+body {
+    /*height: 100vh;*/ /* faz um elemento ter a altura total (100%) da tela visível no navegador., ou seja, a parte da página que você consegue ver na tela sem rolar.*/
+    box-sizing: border-box; /* faz com que o tamanho total do elemento (largura e altura) inclua o conteúdo, o preenchimento e as bordas, sem estourar o tamanho definido*/
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+/*CONFIG DE TODO HEADER*/
+.cabecalho {
+    padding: 2% 0 0 10%; /* sup, dir, inf, esq | os 10% foram baseados na % do que foi deixado no body, para criar alinhamento*/
+}
+
+/* CONFI DO BLOCO HEADER NAV*/
+.cabecalho__menu {
+    display: flex;
+    gap: 80px /*como eu configurei o padding com 10% dir eu somente criei um espaçamento entre os itens*/
+}
+
+/* BOTAO DO CABEÇALHO X2 */
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color:var(--cor-terciaria);
+    text-decoration: none;
+
+}
+
+/*O BLOCO CONTENDO TODOS OS ELEMENTOS TEXTO E IMG*/
+.apresentacao { 
+    margin: 6% 10%; /*Espaço em cima/embaixo*/
+    display: flex; /*Transforma em "Flexbox" para organizar os filhos. Por padrao a flex-direction vem em linha, como sao 2 blocos eles ficam lado a lado */
+    align-items: flex-start; /* alinha os filhos por uma linha central*/
+    justify-content: space-between;/* o primeiro e o último item ficam alinhados nas extremidades do container, e o espaço restante é distribuído uniformemente entre os itens.*/
+
+}
+
+.apresentacao__imagem {
+    scale: 95%;
+}
+
+/*TODO A PARTE TEXTUAL DO SITE, SEP DA IMAGEM PELA "SECTION"*/
+.apresentacao__conteudo {
+    width: 615px; /*Define a largura do elemento.*/
+    display: flex; /*Ativa o Flexbox para controlar o layout.*/
+    flex-direction: column; /*Organiza os elementos em coluna.*/
+    gap: 40px; /*Adiciona espaçamento entre os elementos*/
+
+}
+
+/*TUDO RELACIONADO AO TITULO*/
+.apresentacao__conteudo__titulo {
+    font-size: 36px; /*tamanho da fonte*/
+    font-family: var(--fonte-primaria); /*especificaçoes da fonte*/
+}
+
+/*PARTE EM DESTAQUE DO TITULO*/
+.destaque-h1 {
+    color: var(--cor-terciaria);
+}
+
+/*TUDO RELACIONADO AO PARAGRAFO*/
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-weight: 400; /*peso da fonte*/
+    font-family: var(--fonte-secundaria);
+}   
+
+/*O BLOCO DOS 2 BOTOES DE LINKS*/
+.apresentacao__conteudo__links {
+    display: flex;
+    flex-direction: column; /*muda a direçao do grupo de botoes*/
+    align-items: center; /*Alinha o grupo de botoes no centro do grupo dos textos*/
+    justify-content: space-between; /*Distribui o espaço de forma que haja um espaço igual ao redor de cada item, incluindo nas extremidades*/
+    gap: 32px;
+}
+
+/*UM BOTAO EM ESPECIFICO, APLICADO PARA OS 2 POSTERIORMENTE*/
+.apresentacao__conteudo__links__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);/*posso alterar o solid para outros efeitos*/
+    width: 378px;
+    text-align: center; /*Alinha o texto horizontalmente ao centro do elemento.*/
+    border-radius: 8px; /*Arredonda os cantos do elemento*/
+    font-size: 24px; 
+    font-weight: 600; 
+    padding: 21.5px 0; /*Define o preenchimento interno do elemento (botao todo verde), com 21.5 pixels na parte superior e inferior, e 0 nas laterais.*/
+    text-decoration: none; 
+    color: var(--cor-secundaria); 
+    font-family: var(--fonte-secundaria);
+
+}
+
+/*aplicar estilos a um elemento quando o cursor do mouse passa sobre ele.*/
+.apresentacao__conteudo__links__botoes:hover { 
+    background-color: var(--cor-hover);
+}
+
+/*TEXTO ACIMA DOS BOTOES*/
+.apresentacao__conteudo__links__chamada {
+    font-family: var(--fonte-primaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rodape {
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+}
