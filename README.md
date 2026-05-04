@@ -1,56 +1,51 @@
-# 🚀 Projeto Portfólio Pessoal
+🚀 Personal Portfolio Project
+This repository contains the final result of my personal portfolio project, developed throughout a learning path of HTML and CSS at Alura. The project unifies the knowledge acquired in three consecutive courses, evolving from a basic structure to a styled, responsive page with navigation.
 
-Este repositório contém o resultado final do meu projeto de portfólio, desenvolvido ao longo de uma trilha de aprendizado de HTML e CSS na Alura. O projeto unifica o conhecimento adquirido em três cursos consecutivos, evoluindo de uma estrutura básica para uma página estilizada, responsiva e com navegação.
+💻 Preview
+Here is a visual demonstration of the completed project:
 
-## 💻 Pré-visualização
+🛠️ Technologies Used
+HTML5: Semantic structuring of the content.
 
-Aqui está uma demonstração visual do projeto finalizado:
+CSS3: Styling, layout, and responsiveness.
 
-<img src="assets/project.gif" alt="Demonstração do Portfólio Pessoal" width="100%">
+Flexbox: Flexible layout system for positioning elements.
 
----
+CSS Variables: Centralization and ease of changing the color palette.
 
-## 🛠️ Tecnologias Utilizadas
+VS Code: Development environment.
 
-* **HTML5:** Estruturação semântica do conteúdo.
-* **CSS3:** Estilização, layout e responsividade.
-* **Flexbox:** Sistema de layout flexível para posicionamento de elementos.
-* **Variáveis CSS:** Centralização e facilidade na troca da paleta de cores.
-* **VS Code:** Ambiente de desenvolvimento.
+📖 Learning Journey
+This project was built and refined through the following Alura courses:
 
----
+1. HTML and CSS: development environments, file structure, and tags
+Workload: 8 hours
 
-## 📖 Jornada de Aprendizado
+Challenge: Create the basic structure of an online portfolio, including title, paragraph, and image.
 
-Este projeto foi construído e refinado através dos seguintes cursos da Alura:
+Solution & Learning: I set up the development environment in VS Code. I structured the HTML using fundamental tags such as <html>, <head>, <title>, <body>, <h1>, <p>, and <img>. I focused on the importance of accessibility by using the alt attribute correctly on the <img> tag. I learned the solid foundation of how HTML and CSS work together and how to organize the project files.
 
-### 1. HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags
-* **Carga Horária:** 8 horas
-* **Desafio:** Criar a estrutura básica de um portfólio online, incluindo título, parágrafo e imagem.
-* **Solução & Aprendizado:** Configurei o ambiente de desenvolvimento no VS Code. Estruturei o HTML utilizando as tags fundamentais como `<html>`, `<head>`, `<title>`, `<body>`, `<h1>`, `<p>` e `<img>`. Foquei na importância da acessibilidade ao utilizar corretamente o atributo `alt` na tag `<img>`. Aprendi a base sólida de como HTML e CSS funcionam juntos e como organizar os arquivos do projeto.
+2. HTML and CSS: Classes, positioning, and Flexbox
+Workload: 8 hours
 
-### 2. HTML e CSS: Classes, posicionamento e Flexbox
-* **Carga Horária:** 8 horas
-* **Desafio:** Estilizar a página web, melhorando seu visual e organização.
-* **Solução & Aprendizado:** Utilizei CSS para dar vida à estrutura HTML. Implementei técnicas de posicionamento e explorei diferentes fontes para aprimorar a tipografia. O foco principal foi a aplicação de **Flexbox** para organizar os elementos na página de forma moderna e eficiente, tornando o layout mais atraente e estruturado.
+Challenge: Style the web page, improving its visual and organization.
 
-### 3. HTML e CSS: cabeçalho, footer e variáveis CSS
-* **Carga Horária:** 6 horas
-* **Desafio:** Atualizar o projeto existente, incluindo uma nova tela, aprimorando a exibição de ícones e implementando a navegação.
-* **Solução & Aprendizado:** Refinei o projeto implementando um cabeçalho e um footer. Explorei a criação de navegação fluida entre telas. Um ponto chave foi a implementação de **Variáveis CSS**, o que permitiu centralizar o controle de cores do projeto, facilitando alterações na paleta de cores de forma eficiente. Garanti também que os ícones fossem exibidos corretamente ao lado dos links.
+Solution & Learning: I used CSS to bring the HTML structure to life. I implemented positioning techniques and explored different fonts to enhance the typography. The main focus was applying Flexbox to organize the elements on the page in a modern and efficient way, making the layout more attractive and structured.
 
----
+3. HTML and CSS: header, footer, and CSS variables
+Workload: 6 hours
 
-## 🔥 Como visualizar o projeto
+Challenge: Update the existing project, including a new screen, improving the display of icons, and implementing navigation.
 
-Você pode visualizar o projeto online através do link do deploy (Vercel/GitHub Pages):
+Solution & Learning: I refined the project by implementing a header and a footer. I explored creating fluid navigation between screens. A key point was the implementation of CSS Variables, which allowed centralizing the control of the project's colors, facilitating changes to the color palette efficiently. I also ensured that the icons were displayed correctly next to the links.
+
+🔥 How to view the project
+You can view the project online via the deployment link:
 
 🔗 [Link do Projeto Online](https://projeto-portifolio-html-css-delta.vercel.app/)
 
-Ou, para rodar localmente:
+Or, to run it locally:
 
-1. Clone este repositório: `git clone https://github.com/sousaMatheus1/projeto-portifolio-html-css`
-2. Abra o arquivo `index.html` no seu navegador.
+Clone this repository: git clone https://github.com/sousaMatheus1/projeto-portifolio-html-css
 
----
-Desenvolvido com dedicação por **Matheus Sousa** durante minha trilha de aprendizado na Alura.
+Open the index.html file in your browser.
